@@ -100,10 +100,6 @@ body {
   color: #ffc107;
 }
 
-.titre_style {
-  margin-bottom: 1.25em;
-}
-
 .about_section {
   background-size: cover;
   padding-top: 60px;
@@ -111,13 +107,14 @@ body {
 }
 .about_section > h1 {
   color: #ffc107;
+  margin-bottom: 1.25em;
   text-align: center;
   font-family: monospace;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1;
 }
-.about_section > p {
+.about_section-desc {
   color: white;
   text-align: center;
   font-family: monospace;
@@ -127,7 +124,7 @@ body {
   margin-right: 150px;
 }
 
-.about_section > h2 {
+.tiitre {
   font-family: monospace;
   font-size: 25px;
   line-height: 90px;
@@ -175,4 +172,20 @@ body {
   line-height: 20px;
   color: #ffc107;
   padding-bottom: 10px;
+}
+
+.portfolio_section {
+  background-size: cover;
+  padding-top: 60px;
+  background-color: white;
+}
+
+.portfolio_section > h1 {
+  color: #303030;
+  margin-bottom: 1.25em;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
 }
