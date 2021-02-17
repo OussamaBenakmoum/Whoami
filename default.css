@@ -2,6 +2,8 @@
   --maintext: black;
   --secondaryText: #4b5156;
   --borderColor: #c1c1c1;
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 html,
@@ -18,6 +20,7 @@ h5,
 h6,
 a,
 strong {
+  display: inline-block;
   color: var(--maintext);
 }
 
@@ -30,13 +33,20 @@ textarea {
   color: var(--maintext);
 }
 
-.navbar {
-  position: fixed;
-  background-color: red;
+.intro__img {
+  box-shadow: var(--bs);
+  height: 300px;
+  width: 300px;
+  margin-top: 0%;
+}
+
+.nav-link:hover {
+  font-weight: bolder;
 }
 
 /*JUMBOTRON*/
 .jumbotron {
+  position: relative;
   height: 100vh; /*height to 100% of view height*/
   /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
@@ -49,9 +59,9 @@ textarea {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: red;
+  color: black;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 70px;
 }
 
 .jumbotron-text h1 {
@@ -89,4 +99,9 @@ textarea {
   margin-top: auto;
   text-align: center;
   margin-bottom: 50px;
+}
+
+section {
+  position: relative;
+  margin-bottom: 300px;
 }
