@@ -2,8 +2,12 @@
   --maintext: black;
   --secondaryText: #4b5156;
   --borderColor: #c1c1c1;
+  --beautifulyellow: #ffc107;
+  --beautifulblue: #259e8a;
+
   --beautblue: #16e0bd;
-  --byel: 0.25em 0.25em 0.75em #ffc107, 0.125em 0.125em 0.25em #ffc107;
+  --byel: 0.25em 0.25em 0.75em var(--beautifulyellow),
+    0.125em 0.125em 0.25em var(--beautifulyellow);
   --byelporfolio: 0.25em 0.25em 0.75em black, 0.025em 0.025em 0.05em black;
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
@@ -34,7 +38,7 @@ body {
   font-size: 17px;
 }
 .navbar-custom {
-  background-color: #ffc107;
+  background-color: var(--beautifulblue);
 }
 /*JUMBOTRON*/
 .jumbotron {
@@ -86,7 +90,7 @@ body {
   padding: 20px;
 }
 .social:hover {
-  color: #ffc107;
+  color: var(--beautifulyellow);
   font-size: 2.5em;
 }
 
@@ -94,7 +98,7 @@ body {
   /*position: absolute;
   width: 100%;*/
   margin-top: auto;
-  color: #ffc107;
+  color: var(--beautifulblue);
   text-align: center;
   margin-bottom: 70px;
 }
@@ -102,7 +106,7 @@ body {
   color: black;
 }
 .fa-chevron-down:hover {
-  color: #ffc107;
+  color: var(--beautifulyellow);
 }
 
 .about_section {
@@ -112,7 +116,7 @@ body {
   background-color: #303030;
 }
 .about_section > h1 {
-  color: #ffc107;
+  color: var(--beautifulblue);
   margin-bottom: 1em;
   text-align: center;
   font-family: monospace;
@@ -136,7 +140,7 @@ body {
   line-height: 90px;
   letter-spacing: 5px;
   font-weight: bolder;
-  color: #ffc107;
+  color: var(--beautifulblue);
   margin-left: 120px;
   margin-bottom: 0px;
 }
@@ -174,7 +178,7 @@ body {
 }
 
 .tiitre-skills {
-  color: #ffc107;
+  color: var(--beautifulblue);
   font-family: monospace;
   font-size: 25px;
 }
@@ -194,8 +198,8 @@ body {
   font-size: 20px;
   font-weight: bold;
   box-shadow: var(--byel);
-  background-color: #ffc107;
-  border-color: #ffc107; /*set the color you want here*/
+  background-color: var(--beautifulyellow);
+  border-color: var(--beautifulyellow); /*set the color you want here*/
 }
 
 .portfolio_section {
@@ -210,7 +214,7 @@ body {
   text-align: center;
   font-family: monospace;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1;
 }
 .project-card {
@@ -261,14 +265,14 @@ body {
   margin-top: 55px;
   color: white;
   font-weight: bold;
-  background-color: #ffc107;
+  background-color: var(--beautifulblue);
   font-family: monospace;
   font-size: 14px;
   line-height: 20px;
   float: right;
 }
 .badge:hover {
-  color: black;
+  color: var(--beautifulyellow);
 }
 .project-card:hover {
   box-shadow: var(--byelporfolio);
@@ -285,7 +289,9 @@ body {
 }
 
 .tags li:hover {
-  background-color: #ffc107;
+  background-color: var(--beautifulyellow);
+  color: var(--beautifulblue);
+  font-weight: bolder;
   box-shadow: var(--byelporfolio);
   transition: box-shadow 0.5s;
 }
@@ -310,4 +316,26 @@ body {
 
 .partie_contact {
   background-color: #303030;
+  text-align: center;
+  color: white;
+}
+.partie_contact > h1 {
+  color: var(--beautifulblue);
+  margin-bottom: 25px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+}
+.partie_contact > a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.partie_contact > a:hover {
+  color: var(--beautifulyellow);
+  font-size: 2rem;
+  text-decoration: none;
 }
