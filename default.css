@@ -87,7 +87,7 @@ body {
 .social {
   font-size: 2em;
   color: black;
-  padding: 20px;
+  padding: 10px;
 }
 .social:hover {
   color: var(--beautifulyellow);
@@ -111,6 +111,7 @@ body {
 
 .about_section {
   background-size: auto;
+  margin-right: 0px;
   padding-top: 80px;
   padding-bottom: 15px;
   background-color: #303030;
@@ -338,4 +339,14 @@ body {
   color: var(--beautifulyellow);
   font-size: 2rem;
   text-decoration: none;
+}
+.right_style {
+  color: #259e8a;
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  font-style: oblique;
+  font-weight: normal;
+  font-size: 20px;
 }
