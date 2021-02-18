@@ -216,7 +216,7 @@ body {
 .project-card {
   margin-left: 30px;
 
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   transition: box-shadow 1s;
   margin-right: 30px;
 }
@@ -249,10 +249,10 @@ body {
   text-align: justify;
 }
 .project__stack {
-  font-family: monospace;
-  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -292,4 +292,22 @@ body {
 .blog-header {
   height: 400px;
   z-index: -1;
+}
+
+/**
+<section>
+        <div>
+            <a name="third"></a>
+            <h1>Hi i am Oussama BENAKMOUME</h1>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, itaque ad quam nostrum corrupti possimus voluptatibus quas temporibus. Fugit eum aliquam tempora! Fuga nobis ratione iure harum deserunt quas sit.</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, itaque ad quam nostrum corrupti possimus voluptatibus quas temporibus. Fugit eum aliquam tempora! Fuga nobis ratione iure harum deserunt quas sit.</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, itaque ad quam nostrum corrupti possimus voluptatibus quas temporibus. Fugit eum aliquam tempora! Fuga nobis ratione iure harum deserunt quas sit.</div>
+
+            <p>this is a paragraph</p>
+            <a href="#">Link</a>
+        </div>
+*/
+
+.partie_contact {
+  background-color: #303030;
 }
